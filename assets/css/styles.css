@@ -684,11 +684,11 @@ border-radius: .25rem;
 .skills__css{
     width: 70%;
 }
-.skills__js{
-    width: 10%;
+.skills__wordpress{
+    width: 65%;
 }
-.skills__php{
-    width: 35%;
+.skills__webflow{
+    width: 80%;
 }
 .skills__close .skills__list{
     height: 0;
