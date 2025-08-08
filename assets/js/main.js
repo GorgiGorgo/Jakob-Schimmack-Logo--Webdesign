@@ -1,4 +1,22 @@
+/*document.addEventListener("DOMContentLoaded", function () {
+    const words = ["Online", "Barbier", "Stylist", "Colorist"];
+    let currentIndex = 0;
+    const rotatingText = document.getElementById("rotating-text");
+  
+    function rotateText() {
+      rotatingText.style.opacity = 0;
+  
+      setTimeout(() => {
+        currentIndex = (currentIndex + 1) % words.length;
+        rotatingText.textContent = words[currentIndex];
+        rotatingText.style.opacity = 1;
+      }, 400); // Zeit sollte zur CSS-Transition passen
+    }
+  
+    setInterval(rotateText, 2500);
+  });*/
 /*==================== MENU SHOW Y HIDDEN ====================*/
+
 const navMenu = document.getElementById('nav-menu'),
     navToggle = document.getElementById('nav-toggle'),
     navClose = document.getElementById('nav-close')
@@ -227,3 +245,5 @@ themeButton.addEventListener('click', () => {
         sliderNav(i);
       })
     });
+
+   
