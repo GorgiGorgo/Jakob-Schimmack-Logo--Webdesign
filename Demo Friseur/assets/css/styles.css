@@ -406,6 +406,27 @@ the website, in dark theme
   transform: translateX(.25rem);
 }
 
+.button2{
+  display: inline-block;
+  color: var(--first-color);
+  padding: 1rem 1.75rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
+}
+
+.button2:hover{
+color: var(--first-color-light)
+}
+
+.button__icon{
+  transition: .3s;
+}
+
+.button2:hover .button__icon{
+  transform: translateX(.25rem);
+}
+
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2rem;
